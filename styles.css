@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: "Raleway Dots", "Montserrat";
+    font-family: "Montserrat";
 }
 
 a{
@@ -10,9 +10,6 @@ a{
     color: gray
 }
 
-.header .left{
-    font-size: 70px;
-}
 
 .header,.first-section{
     display: flex;
@@ -26,6 +23,13 @@ a{
     padding-right: 300px;
 }
 
+.header,.subtext,.card-text{
+    font-family: "Raleway Dots";
+}
+
+.header .left{
+    font-size: 70px;
+}
 
 .header img{
     width: 50px;
@@ -45,8 +49,12 @@ a{
     margin-bottom: 20px;
 }
 
-.first-section button{
+.button-text{
     font-family: "Montserrat";
+    color:rgb(104, 104, 104);
+}
+
+.first-section button{
     font-weight: 700;
     padding: 7px 20px;
     font-size: 12px;
@@ -59,22 +67,29 @@ a{
 }
 
 .text-header{
-    font-family: "Montserrat";
     color: rgb(67, 67, 67);
     font-size:30px;
     font-weight: 700px;
 }
 
 .header-two{
-    margin-bottom: 20px;
-    font-weight: 700;
+    margin-bottom: 50px;
     font-size: 25px;
 }
 
 .cards{
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.card{
+    max-width: 200px;
+}
+
+.card-text{
+    font-size: 17px;
 }
 
 .second-section{
