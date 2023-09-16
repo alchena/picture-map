@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Raleway Dots", "Montserrat";
-
 }
 
 a{
@@ -41,6 +40,19 @@ a{
     width:500px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.first-section button{
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 7px 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
 }
 
 .text-header{
