@@ -18,6 +18,9 @@ a{
     display: flex;
     justify-content: space-between; 
     align-items: center;
+}
+
+.header,.first-section,.second-section{
     padding-top: 20px;
     padding-left: 300px;
     padding-right: 300px;
@@ -61,3 +64,21 @@ a{
     font-size:30px;
     font-weight: 700px;
 }
+
+.header-two{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second-section{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
